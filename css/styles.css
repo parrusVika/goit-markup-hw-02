@@ -1,0 +1,26 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
+
+}
+
+.body {
+    font-family: Roboto;
+    color: #757575;
+    ;
+}
+
+
+/* Header*/
+.page-header {}
+
+/* Hero */
+.hero {}
+
+/* Characteristik */
+.section {}
+
+/* Section-title */
+.section-title {}
