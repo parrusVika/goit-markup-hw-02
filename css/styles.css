@@ -1,26 +1,228 @@
 :root {
-    --primary-text-color: #757575;
+    /* fonts */
+    --main-font: 'Roboto', sans-serif --secondery-'font:Raleway', sans-serif
+        /* text color */
+
+        --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-bg-color: #E5E5E5;
 
+    /* bg colors */
+    --light-bg-cl: #ffffff;
+    --dark-bg-olor: #2F303A;
 }
 
 .body {
     font-family: Roboto;
+    font-style: normal;
     color: #757575;
     ;
 }
 
+/* reset stayles */
+ul {
+    list-style: none;
+    text-decoration: none;
+}
 
 /* Header*/
-.page-header {}
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calk(16/26);
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
 
-/* Hero */
-.hero {}
+.logo-studio {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calk(16/26);
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
-/* Characteristik */
-.section {}
+/* nav */
+.link-studio {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calk(16/14);
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
 
-/* Section-title */
-.section-title {}
+.link-studio:hover {
+    text-decoration: underline;
+
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calk(16/14);
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.namber {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calk(16/14);
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.namber:hover {
+    text-decoration: underline;
+}
+
+/* hero */
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+}
+
+.hero-button:hover {
+    text-decoration: underline;
+}
+
+.button-text {}
+
+/* AAbout */
+.about {}
+
+.about-title {
+    text-decoration: hidden;
+}
+
+.about-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.about-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+/* review */
+.review {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Teams */
+.teams-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.teams-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.teams {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calk(16/26);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tell {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio.html */
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
