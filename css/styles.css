@@ -241,7 +241,7 @@ ul {
     height: 38px;
     left: 495px;
     top: 174px;
-    background: #2196F3;
+    background: var(--accent-color);
 }
 
 .all-button-text {
