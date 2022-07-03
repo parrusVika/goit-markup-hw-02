@@ -15,7 +15,6 @@
 
 .body {
     font-family: Roboto;
-    font-style: normal;
     color: #757575;
     ;
 }
@@ -30,7 +29,7 @@ ul {
 .logo {
     font-weight: 700;
     font-size: 26px;
-    line-height: calk(16/26);
+    line-height: calc(16/26);
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
@@ -39,7 +38,7 @@ ul {
 .logo-studio {
     font-weight: 700;
     font-size: 26px;
-    line-height: calk(16/26);
+    line-height: calc(16/26);
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -49,12 +48,13 @@ ul {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: calk(16/14);
+    line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: #2196F3;
 }
 
-.link-studio:hover {
+.link-studio:hover,
+.link-studio:focus {
     text-decoration: underline;
 
 }
@@ -63,7 +63,7 @@ ul {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: calk(16/14);
+    line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -72,12 +72,13 @@ ul {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: calk(16/14);
+    line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: #757575;
 }
 
-.namber:hover {
+.namber:hover,
+.namber:focus {
     text-decoration: underline;
 }
 
@@ -103,11 +104,14 @@ ul {
 
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     text-decoration: underline;
 }
 
-.button-text {}
+.button-text {
+    font-family: inherit;
+}
 
 /* AAbout */
 .about {}
@@ -116,22 +120,19 @@ ul {
     text-decoration: hidden;
 }
 
-.about-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-
 .about-text {
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
     color: #212121;
+}
+
+.about-item {
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 /* review */
@@ -187,7 +188,7 @@ ul {
 }
 
 .address {
-    font-weight: 400;
+    font-family: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -195,19 +196,27 @@ ul {
 }
 
 .footer-mail {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-mail:hover,
+.footer-mail:focus {
+    text-decoration: underline;
+}
+
 .footer-tell {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tell:hover,
+.footer-tell:focus {
+    text-decoration: underline;
 }
 
 /* portfolio.html */
@@ -220,9 +229,32 @@ ul {
 }
 
 .portfolio-item {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+/* Button */
+.all-button {
+    position: absolute;
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+    background: #2196F3;
+}
+
+.all-button-text {
+    color: #FFFFFF;
+}
+
+.button {
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-text {
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
