@@ -1,9 +1,10 @@
 :root {
     /* fonts */
-    --main-font: 'Roboto', sans-serif --secondery-'font:Raleway', sans-serif
-        /* text color */
+    --main-font: 'Roboto', sans-serif;
+    --secodary-font: 'Raleway', sans-serif;
+    /* text color */
 
-        --primary-text-color: #757575;
+    --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-bg-color: #E5E5E5;
@@ -27,6 +28,7 @@ ul {
 
 /* Header*/
 .logo {
+    font-family: var(--secodary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: calc(16/26);
@@ -84,6 +86,11 @@ ul {
 
 /* hero */
 .hero {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
     background: #2F303A;
 }
 
@@ -109,8 +116,16 @@ ul {
     text-decoration: underline;
 }
 
-.button-text {
+.hero-text {
     font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
 
 /* AAbout */
@@ -122,6 +137,7 @@ ul {
 
 .about-text {
     font-weight: 700;
+    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -130,6 +146,8 @@ ul {
 }
 
 .about-item {
+    font-weight: 400;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
@@ -146,6 +164,16 @@ ul {
 }
 
 /* Teams */
+.teams {
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+
+    background: #F5F4FA;
+}
+
 .teams-title {
     font-weight: 700;
     font-size: 36px;
@@ -166,8 +194,6 @@ ul {
 }
 
 .teams {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
@@ -176,19 +202,25 @@ ul {
 
 /* footer */
 .footer {
-    background-color: #2F303A;
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
 }
 
 .footer-logo {
+    font-family: var(--secodary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: calk(16/26);
+    line-height: calc(16/26);
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 .address {
-    font-family: normal;
+    font-style: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -229,6 +261,8 @@ ul {
 }
 
 .portfolio-item {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
@@ -236,20 +270,20 @@ ul {
 
 /* Button */
 .all-button {
+    font-family: var(--main-font) font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
     background: var(--accent-color);
 }
 
-.all-button-text {
-    color: #FFFFFF;
-}
-
 .button {
-    background: #F5F4FA;
-    border-radius: 4px;
-}
-
-.button-text {
+    font-family: var(--main-font);
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
