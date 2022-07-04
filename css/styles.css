@@ -15,8 +15,7 @@
 }
 
 .body {
-    font-family: Roboto;
-    color: #757575;
+    font-family: var(--main-font) color: #757575;
     ;
 }
 
@@ -33,7 +32,7 @@ ul {
     font-size: 26px;
     line-height: calc(16/26);
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
     text-decoration: none;
 }
 
@@ -42,7 +41,7 @@ ul {
     font-size: 26px;
     line-height: calc(16/26);
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-text-color)
 }
 
 /* nav */
@@ -52,7 +51,7 @@ ul {
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--accent-color)
 }
 
 .link-studio:hover,
@@ -67,7 +66,7 @@ ul {
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--title-text-color)
 }
 
 .namber {
@@ -76,7 +75,7 @@ ul {
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--primary-text-color)
 }
 
 .namber:hover,
@@ -84,15 +83,25 @@ ul {
     text-decoration: underline;
 }
 
-/* hero */
+/* Header */
+.header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+/* hero 
 .hero {
     position: absolute;
     width: 1600px;
     height: 600px;
     left: 0px;
     top: 80px;
-    background: #2F303A;
-}
+    background: #2F303A;}*/
+
 
 .hero-title {
     font-weight: 900;
@@ -106,7 +115,7 @@ ul {
 
 .hero-button {
     cursor: pointer;
-    background: #2196F3;
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
@@ -142,8 +151,7 @@ ul {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-    color: #212121;
+    color: var(--title-text-color)
 }
 
 .about-item {
@@ -160,19 +168,18 @@ ul {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-text-color)
 }
 
-/* Teams */
+/* Teams 
 .teams {
     position: absolute;
     width: 1600px;
     height: 648px;
     left: 0px;
     top: 1449px;
-
     background: #F5F4FA;
-}
+}*/
 
 .teams-title {
     font-weight: 700;
@@ -180,8 +187,7 @@ ul {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
-    color: #212121;
+    color: var(--title-text-color)
 }
 
 .teams-name {
@@ -190,14 +196,14 @@ ul {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-text-color)
 }
 
 .teams {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-color)
 }
 
 /* footer */
@@ -260,20 +266,20 @@ ul {
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--title-text-color)
 }
 
 .portfolio-item {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-color)
 }
 
 /* Button */
 .all-button {
     cursor: pointer;
-    font-family: var(--main-font) font-weight: 500;
+    font-family: var(--main-font);
     font-size: 16px;
     line-height: calc(26/16);
     text-align: center;
@@ -283,10 +289,10 @@ ul {
 }
 
 .button {
-    cursor: pointer font-family: var(--main-font);
+    cursor: pointer var(--main-font);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-text-color);
     background: #F5F4FA;
     border-radius: 4px;
 }
