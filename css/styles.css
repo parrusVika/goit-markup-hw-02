@@ -90,7 +90,7 @@ ul {
     height: 80px;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
+    background: var(--light-bg-cl);
 }
 
 /* hero */
@@ -100,7 +100,7 @@ ul {
     height: 600px;
     left: 0px;
     top: 80px;
-    background: #2F303A;
+    background: var(--dark-bg-olor);
 }
 
 
@@ -111,7 +111,7 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--light-bg-cl);
 }
 
 .hero-button {
@@ -136,7 +136,7 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--light-bg-cl);
 }
 
 /* AAbout */
@@ -216,7 +216,7 @@ ul {
     height: 252px;
     left: 0px;
     top: 2097px;
-    background: #2F303A;
+    background: var(--dark-bg-olor);
 }
 
 .footer-logo {
@@ -225,14 +225,14 @@ ul {
     font-size: 26px;
     line-height: calc(16/26);
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--light-bg-cl);
 }
 
 .address {
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--light-bg-cl);
 }
 
 .footer-mail {
@@ -287,7 +287,7 @@ ul {
     line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--light-bg-cl);
     background: var(--accent-color);
 }
 
