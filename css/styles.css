@@ -105,12 +105,10 @@ ul {
 }
 
 .hero-button {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
@@ -161,7 +159,6 @@ ul {
 }
 
 .about-title {
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
@@ -217,6 +214,7 @@ ul {
 }
 
 .address {
+    font-style: normal;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
@@ -270,7 +268,7 @@ ul {
 /* Button */
 .all-button {
     cursor: pointer;
-    font-family: var(--main-font);
+    font-family: inherit;
     font-size: 16px;
     line-height: calc(26/16);
     text-align: center;
@@ -290,7 +288,7 @@ ul {
 }
 
 .button {
-    font-family: var(--main-font);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
