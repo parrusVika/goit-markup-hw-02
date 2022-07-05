@@ -56,7 +56,7 @@ ul {
 
 .link-studio:hover,
 .link-studio:focus {
-    text-decoration: underline;
+    text-decoration: var(--accent-color);
 
 }
 
@@ -80,26 +80,16 @@ ul {
 
 .namber:hover,
 .namber:focus {
-    text-decoration: underline;
+    text-decoration: var(--accent-color);
 }
 
 /* Header */
 .header {
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
     background: var(--light-bg-cl);
 }
 
 /* hero */
 .hero {
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
     background: var(--dark-bg-olor);
 }
 
@@ -115,6 +105,14 @@ ul {
 }
 
 .hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
     cursor: pointer;
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -124,7 +122,7 @@ ul {
 
 .hero-button:hover,
 .hero-button:focus {
-    text-decoration: underline;
+    text-decoration: var(--accent-color);
 }
 
 .hero-text {
@@ -175,11 +173,6 @@ ul {
 
 /* Teams*/
 .teams-section {
-    position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
     background: #F5F4FA;
 }
 
@@ -211,11 +204,6 @@ ul {
 
 /* footer */
 .footer {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
     background: var(--dark-bg-olor);
 }
 
@@ -244,7 +232,7 @@ ul {
 
 .footer-mail:hover,
 .footer-mail:focus {
-    text-decoration: underline;
+    text-decoration: var(--accent-color);
 }
 
 .footer-tell {
@@ -256,7 +244,7 @@ ul {
 
 .footer-tell:hover,
 .footer-tell:focus {
-    text-decoration: underline;
+    text-decoration: var(--accent-color);
 }
 
 /* portfolio.html */
@@ -274,7 +262,7 @@ ul {
 
 .portfolio-item {
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(30/6);
     letter-spacing: 0.03em;
     color: var(--primary-text-color)
 }
@@ -292,6 +280,10 @@ ul {
 }
 
 .button {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
     cursor: pointer var(--main-font);
     text-align: center;
     letter-spacing: 0.03em;
